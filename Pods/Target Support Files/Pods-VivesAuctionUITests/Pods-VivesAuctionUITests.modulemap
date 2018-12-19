@@ -1,0 +1,6 @@
+framework module Pods_VivesAuctionUITests {
+  umbrella header "Pods-VivesAuctionUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

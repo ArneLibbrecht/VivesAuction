@@ -7,13 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		314FC6741A23EE69349A2140 /* Pods_VivesAuction.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A065C60800025F2E16F96BC9 /* Pods_VivesAuction.framework */; };
+		450396D496C99036DF5F1AC7 /* Pods_VivesAuctionUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02DE15CB13459FE782F7E8D1 /* Pods_VivesAuctionUITests.framework */; };
+		6D111E25B32F13A380D6F4FA /* Pods_VivesAuctionTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EFAAB1DC65060DC684471EE /* Pods_VivesAuctionTests.framework */; };
 		D70521CB21AE98C100107F2B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D70521CA21AE98C100107F2B /* AppDelegate.swift */; };
-		D70521CD21AE98C100107F2B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D70521CC21AE98C100107F2B /* ViewController.swift */; };
+		D70521CD21AE98C100107F2B /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D70521CC21AE98C100107F2B /* StartViewController.swift */; };
 		D70521D021AE98C200107F2B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D70521CE21AE98C200107F2B /* Main.storyboard */; };
 		D70521D221AE98C500107F2B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D70521D121AE98C500107F2B /* Assets.xcassets */; };
 		D70521D521AE98C500107F2B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D70521D321AE98C500107F2B /* LaunchScreen.storyboard */; };
 		D70521E021AE98C500107F2B /* VivesAuctionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D70521DF21AE98C500107F2B /* VivesAuctionTests.swift */; };
 		D70521EB21AE98C500107F2B /* VivesAuctionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D70521EA21AE98C500107F2B /* VivesAuctionUITests.swift */; };
+		D70521F921AE9BB100107F2B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D70521F821AE9BB100107F2B /* GoogleService-Info.plist */; };
+		D709743521B91E6300D8E7E3 /* RegisterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D709743421B91E6300D8E7E3 /* RegisterVC.swift */; };
+		D709743721B91E7700D8E7E3 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D709743621B91E7700D8E7E3 /* LoginVC.swift */; };
+		D71E7DE021B7C833007A6327 /* friend.png in Resources */ = {isa = PBXBuildFile; fileRef = D71E7DDF21B7C833007A6327 /* friend.png */; };
+		D72D14EE21B7D36B00B2392E /* gift.png in Resources */ = {isa = PBXBuildFile; fileRef = D72D14ED21B7D36A00B2392E /* gift.png */; };
+		D72D14F221B7D4DA00B2392E /* kader2.png in Resources */ = {isa = PBXBuildFile; fileRef = D72D14F121B7D4DA00B2392E /* kader2.png */; };
+		D7610CE021C0F968003F3797 /* RegistrationValidationProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7610CDF21C0F968003F3797 /* RegistrationValidationProtocol.swift */; };
+		D7610CE421C100A5003F3797 /* LoginDatabag.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7610CE321C100A5003F3797 /* LoginDatabag.swift */; };
+		D7610CE621C1041E003F3797 /* RegistrationValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7610CE521C1041E003F3797 /* RegistrationValidator.swift */; };
+		D778F77221CA33310078DAF6 /* MemberDAO.swift in Sources */ = {isa = PBXBuildFile; fileRef = D778F77121CA33310078DAF6 /* MemberDAO.swift */; };
+		D7A64AD121AFE2EC0010AE4C /* vivesauction.png in Resources */ = {isa = PBXBuildFile; fileRef = D7A64AD021AFE2EC0010AE4C /* vivesauction.png */; };
+		D7A64AD321AFE5F30010AE4C /* kader.png in Resources */ = {isa = PBXBuildFile; fileRef = D7A64AD221AFE5F30010AE4C /* kader.png */; };
+		D7A6F9F721CA3EB3006D4C0A /* MemberModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7A6F9F621CA3EB3006D4C0A /* MemberModel.swift */; };
+		D7B5EF7721B7BFCB00E414CC /* mail.png in Resources */ = {isa = PBXBuildFile; fileRef = D7B5EF7621B7BFCA00E414CC /* mail.png */; };
+		D7B5EF7B21B7C16500E414CC /* line.png in Resources */ = {isa = PBXBuildFile; fileRef = D7B5EF7A21B7C16400E414CC /* line.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +52,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		017A9F6055CBA946C116B3A2 /* Pods-VivesAuctionTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VivesAuctionTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VivesAuctionTests/Pods-VivesAuctionTests.debug.xcconfig"; sourceTree = "<group>"; };
+		02DE15CB13459FE782F7E8D1 /* Pods_VivesAuctionUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VivesAuctionUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		27C696CA85FFFFF454AC4113 /* Pods-VivesAuctionUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VivesAuctionUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-VivesAuctionUITests/Pods-VivesAuctionUITests.release.xcconfig"; sourceTree = "<group>"; };
+		3EFAAB1DC65060DC684471EE /* Pods_VivesAuctionTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VivesAuctionTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		58566B9AECA36BBFDE5109EF /* Pods-VivesAuctionUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VivesAuctionUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VivesAuctionUITests/Pods-VivesAuctionUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		94F9EACE27A8CE659721A319 /* Pods-VivesAuction.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VivesAuction.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VivesAuction/Pods-VivesAuction.debug.xcconfig"; sourceTree = "<group>"; };
+		A065C60800025F2E16F96BC9 /* Pods_VivesAuction.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VivesAuction.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA1BBB76B709FF219AA3AE92 /* Pods-VivesAuction.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VivesAuction.release.xcconfig"; path = "Pods/Target Support Files/Pods-VivesAuction/Pods-VivesAuction.release.xcconfig"; sourceTree = "<group>"; };
 		D70521C721AE98C100107F2B /* VivesAuction.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VivesAuction.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D70521CA21AE98C100107F2B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D70521CC21AE98C100107F2B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D70521CC21AE98C100107F2B /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
 		D70521CF21AE98C200107F2B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D70521D121AE98C500107F2B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D70521D421AE98C500107F2B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +73,22 @@
 		D70521E621AE98C500107F2B /* VivesAuctionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VivesAuctionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D70521EA21AE98C500107F2B /* VivesAuctionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VivesAuctionUITests.swift; sourceTree = "<group>"; };
 		D70521EC21AE98C500107F2B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D70521F821AE9BB100107F2B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Desktop/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		D709743421B91E6300D8E7E3 /* RegisterVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterVC.swift; sourceTree = "<group>"; };
+		D709743621B91E7700D8E7E3 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		D71E7DDF21B7C833007A6327 /* friend.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = friend.png; path = ../../../../Downloads/friend.png; sourceTree = "<group>"; };
+		D72D14ED21B7D36A00B2392E /* gift.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = gift.png; path = ../../../../Downloads/gift.png; sourceTree = "<group>"; };
+		D72D14F121B7D4DA00B2392E /* kader2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = kader2.png; path = ../../../../Desktop/kader2.png; sourceTree = "<group>"; };
+		D7610CDF21C0F968003F3797 /* RegistrationValidationProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationValidationProtocol.swift; sourceTree = "<group>"; };
+		D7610CE321C100A5003F3797 /* LoginDatabag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginDatabag.swift; sourceTree = "<group>"; };
+		D7610CE521C1041E003F3797 /* RegistrationValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationValidator.swift; sourceTree = "<group>"; };
+		D778F77121CA33310078DAF6 /* MemberDAO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemberDAO.swift; sourceTree = "<group>"; };
+		D7A64AD021AFE2EC0010AE4C /* vivesauction.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = vivesauction.png; path = ../../../../Desktop/vivesauction.png; sourceTree = "<group>"; };
+		D7A64AD221AFE5F30010AE4C /* kader.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = kader.png; path = ../../../../Desktop/kader.png; sourceTree = "<group>"; };
+		D7A6F9F621CA3EB3006D4C0A /* MemberModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemberModel.swift; sourceTree = "<group>"; };
+		D7B5EF7621B7BFCA00E414CC /* mail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mail.png; path = ../../../../Downloads/mail.png; sourceTree = "<group>"; };
+		D7B5EF7A21B7C16400E414CC /* line.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = line.png; path = ../../../../Downloads/line.png; sourceTree = "<group>"; };
+		E0C97F84BD2B8244C047C1B8 /* Pods-VivesAuctionTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VivesAuctionTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-VivesAuctionTests/Pods-VivesAuctionTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +96,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				314FC6741A23EE69349A2140 /* Pods_VivesAuction.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +104,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6D111E25B32F13A380D6F4FA /* Pods_VivesAuctionTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +112,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				450396D496C99036DF5F1AC7 /* Pods_VivesAuctionUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C580072A7CF03D564C1D6CE9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A065C60800025F2E16F96BC9 /* Pods_VivesAuction.framework */,
+				3EFAAB1DC65060DC684471EE /* Pods_VivesAuctionTests.framework */,
+				02DE15CB13459FE782F7E8D1 /* Pods_VivesAuctionUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D5039CA62EDF8E2FEC08F9DF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				94F9EACE27A8CE659721A319 /* Pods-VivesAuction.debug.xcconfig */,
+				BA1BBB76B709FF219AA3AE92 /* Pods-VivesAuction.release.xcconfig */,
+				017A9F6055CBA946C116B3A2 /* Pods-VivesAuctionTests.debug.xcconfig */,
+				E0C97F84BD2B8244C047C1B8 /* Pods-VivesAuctionTests.release.xcconfig */,
+				58566B9AECA36BBFDE5109EF /* Pods-VivesAuctionUITests.debug.xcconfig */,
+				27C696CA85FFFFF454AC4113 /* Pods-VivesAuctionUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		D70521BE21AE98C100107F2B = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +149,8 @@
 				D70521DE21AE98C500107F2B /* VivesAuctionTests */,
 				D70521E921AE98C500107F2B /* VivesAuctionUITests */,
 				D70521C821AE98C100107F2B /* Products */,
+				D5039CA62EDF8E2FEC08F9DF /* Pods */,
+				C580072A7CF03D564C1D6CE9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,8 +167,16 @@
 		D70521C921AE98C100107F2B /* VivesAuction */ = {
 			isa = PBXGroup;
 			children = (
+				D7A6F9F521CA3E98006D4C0A /* Models */,
+				D7610CE221C10045003F3797 /* Databags */,
+				D7610CDE21C0F91D003F3797 /* Validators */,
+				D7610CDD21C0F8C5003F3797 /* Contracts */,
+				D7A64ACF21AFE2D90010AE4C /* Assets */,
+				D7A64ACE21AFDD600010AE4C /* ViewController */,
+				D7A64ACD21AFDD560010AE4C /* DAO */,
+				D7A64ACC21AFDD4E0010AE4C /* Util */,
+				D70521F821AE9BB100107F2B /* GoogleService-Info.plist */,
 				D70521CA21AE98C100107F2B /* AppDelegate.swift */,
-				D70521CC21AE98C100107F2B /* ViewController.swift */,
 				D70521CE21AE98C200107F2B /* Main.storyboard */,
 				D70521D121AE98C500107F2B /* Assets.xcassets */,
 				D70521D321AE98C500107F2B /* LaunchScreen.storyboard */,
@@ -125,6 +203,77 @@
 			path = VivesAuctionUITests;
 			sourceTree = "<group>";
 		};
+		D7610CDD21C0F8C5003F3797 /* Contracts */ = {
+			isa = PBXGroup;
+			children = (
+				D7610CDF21C0F968003F3797 /* RegistrationValidationProtocol.swift */,
+			);
+			path = Contracts;
+			sourceTree = "<group>";
+		};
+		D7610CDE21C0F91D003F3797 /* Validators */ = {
+			isa = PBXGroup;
+			children = (
+				D7610CE521C1041E003F3797 /* RegistrationValidator.swift */,
+			);
+			path = Validators;
+			sourceTree = "<group>";
+		};
+		D7610CE221C10045003F3797 /* Databags */ = {
+			isa = PBXGroup;
+			children = (
+				D7610CE321C100A5003F3797 /* LoginDatabag.swift */,
+			);
+			path = Databags;
+			sourceTree = "<group>";
+		};
+		D7A64ACC21AFDD4E0010AE4C /* Util */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		D7A64ACD21AFDD560010AE4C /* DAO */ = {
+			isa = PBXGroup;
+			children = (
+				D778F77121CA33310078DAF6 /* MemberDAO.swift */,
+			);
+			path = DAO;
+			sourceTree = "<group>";
+		};
+		D7A64ACE21AFDD600010AE4C /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				D70521CC21AE98C100107F2B /* StartViewController.swift */,
+				D709743421B91E6300D8E7E3 /* RegisterVC.swift */,
+				D709743621B91E7700D8E7E3 /* LoginVC.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		D7A64ACF21AFE2D90010AE4C /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				D72D14F121B7D4DA00B2392E /* kader2.png */,
+				D72D14ED21B7D36A00B2392E /* gift.png */,
+				D71E7DDF21B7C833007A6327 /* friend.png */,
+				D7B5EF7A21B7C16400E414CC /* line.png */,
+				D7B5EF7621B7BFCA00E414CC /* mail.png */,
+				D7A64AD221AFE5F30010AE4C /* kader.png */,
+				D7A64AD021AFE2EC0010AE4C /* vivesauction.png */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		D7A6F9F521CA3E98006D4C0A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D7A6F9F621CA3EB3006D4C0A /* MemberModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +281,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D70521EF21AE98C500107F2B /* Build configuration list for PBXNativeTarget "VivesAuction" */;
 			buildPhases = (
+				54FD1BAA1F7056B02F8F5FCA /* [CP] Check Pods Manifest.lock */,
 				D70521C321AE98C100107F2B /* Sources */,
 				D70521C421AE98C100107F2B /* Frameworks */,
 				D70521C521AE98C100107F2B /* Resources */,
+				63AE594D549E045B5260D6D7 /* [CP] Embed Pods Frameworks */,
+				105EBC83837E7F6CB593C895 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,6 +301,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D70521F221AE98C500107F2B /* Build configuration list for PBXNativeTarget "VivesAuctionTests" */;
 			buildPhases = (
+				35180EE49AA15E7D4B834063 /* [CP] Check Pods Manifest.lock */,
 				D70521D721AE98C500107F2B /* Sources */,
 				D70521D821AE98C500107F2B /* Frameworks */,
 				D70521D921AE98C500107F2B /* Resources */,
@@ -167,6 +320,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D70521F521AE98C500107F2B /* Build configuration list for PBXNativeTarget "VivesAuctionUITests" */;
 			buildPhases = (
+				9FFA480050F52B13AC4FD443 /* [CP] Check Pods Manifest.lock */,
 				D70521E221AE98C500107F2B /* Sources */,
 				D70521E321AE98C500107F2B /* Frameworks */,
 				D70521E421AE98C500107F2B /* Resources */,
@@ -229,8 +383,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D7B5EF7721B7BFCB00E414CC /* mail.png in Resources */,
+				D72D14EE21B7D36B00B2392E /* gift.png in Resources */,
 				D70521D521AE98C500107F2B /* LaunchScreen.storyboard in Resources */,
+				D7A64AD321AFE5F30010AE4C /* kader.png in Resources */,
+				D71E7DE021B7C833007A6327 /* friend.png in Resources */,
+				D7A64AD121AFE2EC0010AE4C /* vivesauction.png in Resources */,
+				D70521F921AE9BB100107F2B /* GoogleService-Info.plist in Resources */,
+				D7B5EF7B21B7C16500E414CC /* line.png in Resources */,
 				D70521D221AE98C500107F2B /* Assets.xcassets in Resources */,
+				D72D14F221B7D4DA00B2392E /* kader2.png in Resources */,
 				D70521D021AE98C200107F2B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -251,13 +413,147 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		105EBC83837E7F6CB593C895 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-VivesAuction/Pods-VivesAuction-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseFirestore/gRPCCertificates.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/gRPCCertificates.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VivesAuction/Pods-VivesAuction-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		35180EE49AA15E7D4B834063 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VivesAuctionTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		54FD1BAA1F7056B02F8F5FCA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VivesAuction-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		63AE594D549E045B5260D6D7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-VivesAuction/Pods-VivesAuction-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/BoringSSL/openssl.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-C++/grpcpp.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-Core/grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/openssl.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpcpp.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VivesAuction/Pods-VivesAuction-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9FFA480050F52B13AC4FD443 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VivesAuctionUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D70521C321AE98C100107F2B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D70521CD21AE98C100107F2B /* ViewController.swift in Sources */,
+				D7610CE421C100A5003F3797 /* LoginDatabag.swift in Sources */,
+				D7610CE021C0F968003F3797 /* RegistrationValidationProtocol.swift in Sources */,
+				D709743521B91E6300D8E7E3 /* RegisterVC.swift in Sources */,
+				D70521CD21AE98C100107F2B /* StartViewController.swift in Sources */,
+				D7A6F9F721CA3EB3006D4C0A /* MemberModel.swift in Sources */,
+				D709743721B91E7700D8E7E3 /* LoginVC.swift in Sources */,
 				D70521CB21AE98C100107F2B /* AppDelegate.swift in Sources */,
+				D778F77221CA33310078DAF6 /* MemberDAO.swift in Sources */,
+				D7610CE621C1041E003F3797 /* RegistrationValidator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,6 +726,7 @@
 		};
 		D70521F021AE98C500107F2B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94F9EACE27A8CE659721A319 /* Pods-VivesAuction.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -439,7 +736,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = be.vives.VivesAuction;
+				PRODUCT_BUNDLE_IDENTIFIER = be.vives.vivesauction;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -448,6 +745,7 @@
 		};
 		D70521F121AE98C500107F2B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA1BBB76B709FF219AA3AE92 /* Pods-VivesAuction.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -457,7 +755,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = be.vives.VivesAuction;
+				PRODUCT_BUNDLE_IDENTIFIER = be.vives.vivesauction;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -466,6 +764,7 @@
 		};
 		D70521F321AE98C500107F2B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 017A9F6055CBA946C116B3A2 /* Pods-VivesAuctionTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -487,6 +786,7 @@
 		};
 		D70521F421AE98C500107F2B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0C97F84BD2B8244C047C1B8 /* Pods-VivesAuctionTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +808,7 @@
 		};
 		D70521F621AE98C500107F2B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 58566B9AECA36BBFDE5109EF /* Pods-VivesAuctionUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -528,6 +829,7 @@
 		};
 		D70521F721AE98C500107F2B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 27C696CA85FFFFF454AC4113 /* Pods-VivesAuctionUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
