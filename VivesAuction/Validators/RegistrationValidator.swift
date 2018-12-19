@@ -52,7 +52,7 @@ class RegistrationValidator{
             }
         }
         else{
-            
+            p_listener.registrationCompleted(login: logindatabag, error: errors)
         }
     
     }

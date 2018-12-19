@@ -34,7 +34,8 @@ class RegisterVC: UIViewController,RegistrationValidationProtocol {
     }
     func registrationCompleted(login: LoginDatabag?, error: [String : String]) {
         if(error.count==0){
-            
+            let login = storyboard?.instantiateViewController(withIdentifier: "LoginVC") as! UIViewController
+            self.navigationController?.show(login,sender:self)
         }else{
             var message=""
             error.forEach { err in
