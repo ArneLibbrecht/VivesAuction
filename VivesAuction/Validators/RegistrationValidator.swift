@@ -32,17 +32,17 @@ class RegistrationValidator{
             errors["birthDateRequired"]="Het veld geboortedatum is verplicht, gelieve dit in te vullen."
         }
         
-        if(password==passwordValidation){
+        if(!password.elementsEqual(passwordValidation)){
             errors["wrongPasswordValidation"]="Het wachtwoord en de paswoordvalidatie moeten gelijk zijn."
         }
         
         if(errors.count==0){
             
-            let logindatabag = LoginDatabag(email: email,password: password)
+            let logindatabag = LoginDatabag(email: email,password: password,uid:nil)
             Auth.auth().createUser(withEmail: logindatabag.getEmail(), password: logindatabag.getPassword()){(authResult, error) in
                 guard let user = authResult?.user else {
                     errors["registrationFailed"]="De validatieregels bij Firebase werden niet voldaan."
-                    p_listener.registrationCompleted(login: logindatabag, error: errors)
+                    p_listener.registrationCompleted(login: nil, error: errors)
                     return
                 }
                 let memberDAO = MemberDAO()
@@ -52,7 +52,7 @@ class RegistrationValidator{
             }
         }
         else{
-            p_listener.registrationCompleted(login: logindatabag, error: errors)
+            p_listener.registrationCompleted(login:nil, error: errors)
         }
     
     }

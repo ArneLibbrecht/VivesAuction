@@ -9,10 +9,15 @@
 import Firebase
 import FirebaseFirestore
 class MemberDAO{
+    var db:Firestore?
+    init(){
+        db=Firestore.firestore()
+    }
+    
     func addMember(member:MemberModel){
-        let db = Firestore.firestore()
-        var ref: DocumentReference? = nil
-        ref = db.collection("Member").addDocument(data: [
+        //let db = Firestore.firestore()
+        //ar ref: DocumentReference? = nil
+        db!.collection("Member").addDocument(data: [
             "birthdate": member.getBirthDate(),
             "name":member.getName(),
             "uid":member.getUid()]){
@@ -21,7 +26,7 @@ class MemberDAO{
                     print("Error adding document: \(err)")
                 }
                 else{
-                    print("Document added \(ref!.documentID)")
+                    print("Document added \(member.getName())")
                 }
         }
     }

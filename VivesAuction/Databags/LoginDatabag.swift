@@ -11,10 +11,11 @@ import Foundation
 class LoginDatabag{
     var email:String
     var password:String
-    
-    init(email:String,password:String){
+    var uid:String?
+    init(email:String,password:String, uid:String?){
         self.email=email
         self.password=password
+        self.uid=uid
     }
     
     func getEmail() -> String {
@@ -24,5 +25,7 @@ class LoginDatabag{
     func getPassword() -> String{
         return self.password
     }
-    
+    public func getUid() -> String? {
+        return uid
+    }
 }

@@ -34,7 +34,7 @@ class RegisterVC: UIViewController,RegistrationValidationProtocol {
     }
     func registrationCompleted(login: LoginDatabag?, error: [String : String]) {
         if(error.count==0){
-            let login = storyboard?.instantiateViewController(withIdentifier: "LoginVC") as! UIViewController
+            let login = storyboard?.instantiateViewController(withIdentifier: "StartVC") as! UIViewController
             self.navigationController?.show(login,sender:self)
         }else{
             var message=""
@@ -42,6 +42,7 @@ class RegisterVC: UIViewController,RegistrationValidationProtocol {
                 message = message + err.value + "\n"
             }
             let alert = UIAlertController(title:"fout bij invoer", message:message,preferredStyle: .alert)
+            alert.addAction(UIAlertAction(title:"OK",style:UIAlertAction.Style.default,handler:nil))
             self.present(alert, animated: true)
         }
     }
