@@ -21,6 +21,17 @@
 		D709743521B91E6300D8E7E3 /* RegisterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D709743421B91E6300D8E7E3 /* RegisterVC.swift */; };
 		D709743721B91E7700D8E7E3 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D709743621B91E7700D8E7E3 /* LoginVC.swift */; };
 		D71E7DE021B7C833007A6327 /* friend.png in Resources */ = {isa = PBXBuildFile; fileRef = D71E7DDF21B7C833007A6327 /* friend.png */; };
+		D729FE9321CD5D6300457D1B /* LoginValidation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D729FE9221CD5D6200457D1B /* LoginValidation.swift */; };
+		D729FE9621CD5D8200457D1B /* ArticleModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D729FE9421CD5D8100457D1B /* ArticleModel.swift */; };
+		D729FE9721CD5D8200457D1B /* BidModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D729FE9521CD5D8200457D1B /* BidModel.swift */; };
+		D729FE9A21CD5DA400457D1B /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D729FE9821CD5DA300457D1B /* TableViewController.swift */; };
+		D729FE9B21CD5DA400457D1B /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D729FE9921CD5DA400457D1B /* DetailViewController.swift */; };
+		D729FEA121CD5DBA00457D1B /* BidDAOadd.swift in Sources */ = {isa = PBXBuildFile; fileRef = D729FE9C21CD5DB900457D1B /* BidDAOadd.swift */; };
+		D729FEA221CD5DBA00457D1B /* ArticleDAO.swift in Sources */ = {isa = PBXBuildFile; fileRef = D729FE9D21CD5DB900457D1B /* ArticleDAO.swift */; };
+		D729FEA321CD5DBA00457D1B /* MemberDAORef.swift in Sources */ = {isa = PBXBuildFile; fileRef = D729FE9E21CD5DB900457D1B /* MemberDAORef.swift */; };
+		D729FEA421CD5DBA00457D1B /* MemberDAOget.swift in Sources */ = {isa = PBXBuildFile; fileRef = D729FE9F21CD5DB900457D1B /* MemberDAOget.swift */; };
+		D729FEA521CD5DBA00457D1B /* BidDAO.swift in Sources */ = {isa = PBXBuildFile; fileRef = D729FEA021CD5DB900457D1B /* BidDAO.swift */; };
+		D729FEA721CD5EBC00457D1B /* LoginValidationProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = D729FEA621CD5EBC00457D1B /* LoginValidationProtocol.swift */; };
 		D72D14EE21B7D36B00B2392E /* gift.png in Resources */ = {isa = PBXBuildFile; fileRef = D72D14ED21B7D36A00B2392E /* gift.png */; };
 		D72D14F221B7D4DA00B2392E /* kader2.png in Resources */ = {isa = PBXBuildFile; fileRef = D72D14F121B7D4DA00B2392E /* kader2.png */; };
 		D7610CE021C0F968003F3797 /* RegistrationValidationProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7610CDF21C0F968003F3797 /* RegistrationValidationProtocol.swift */; };
@@ -77,6 +88,17 @@
 		D709743421B91E6300D8E7E3 /* RegisterVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterVC.swift; sourceTree = "<group>"; };
 		D709743621B91E7700D8E7E3 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		D71E7DDF21B7C833007A6327 /* friend.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = friend.png; path = ../../../../Downloads/friend.png; sourceTree = "<group>"; };
+		D729FE9221CD5D6200457D1B /* LoginValidation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginValidation.swift; sourceTree = "<group>"; };
+		D729FE9421CD5D8100457D1B /* ArticleModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArticleModel.swift; sourceTree = "<group>"; };
+		D729FE9521CD5D8200457D1B /* BidModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BidModel.swift; sourceTree = "<group>"; };
+		D729FE9821CD5DA300457D1B /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		D729FE9921CD5DA400457D1B /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		D729FE9C21CD5DB900457D1B /* BidDAOadd.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BidDAOadd.swift; sourceTree = "<group>"; };
+		D729FE9D21CD5DB900457D1B /* ArticleDAO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArticleDAO.swift; sourceTree = "<group>"; };
+		D729FE9E21CD5DB900457D1B /* MemberDAORef.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MemberDAORef.swift; sourceTree = "<group>"; };
+		D729FE9F21CD5DB900457D1B /* MemberDAOget.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MemberDAOget.swift; sourceTree = "<group>"; };
+		D729FEA021CD5DB900457D1B /* BidDAO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BidDAO.swift; sourceTree = "<group>"; };
+		D729FEA621CD5EBC00457D1B /* LoginValidationProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginValidationProtocol.swift; sourceTree = "<group>"; };
 		D72D14ED21B7D36A00B2392E /* gift.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = gift.png; path = ../../../../Downloads/gift.png; sourceTree = "<group>"; };
 		D72D14F121B7D4DA00B2392E /* kader2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = kader2.png; path = ../../../../Desktop/kader2.png; sourceTree = "<group>"; };
 		D7610CDF21C0F968003F3797 /* RegistrationValidationProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationValidationProtocol.swift; sourceTree = "<group>"; };
@@ -207,6 +229,7 @@
 			isa = PBXGroup;
 			children = (
 				D7610CDF21C0F968003F3797 /* RegistrationValidationProtocol.swift */,
+				D729FEA621CD5EBC00457D1B /* LoginValidationProtocol.swift */,
 			);
 			path = Contracts;
 			sourceTree = "<group>";
@@ -214,6 +237,7 @@
 		D7610CDE21C0F91D003F3797 /* Validators */ = {
 			isa = PBXGroup;
 			children = (
+				D729FE9221CD5D6200457D1B /* LoginValidation.swift */,
 				D7610CE521C1041E003F3797 /* RegistrationValidator.swift */,
 			);
 			path = Validators;
@@ -237,6 +261,11 @@
 		D7A64ACD21AFDD560010AE4C /* DAO */ = {
 			isa = PBXGroup;
 			children = (
+				D729FE9D21CD5DB900457D1B /* ArticleDAO.swift */,
+				D729FEA021CD5DB900457D1B /* BidDAO.swift */,
+				D729FE9C21CD5DB900457D1B /* BidDAOadd.swift */,
+				D729FE9F21CD5DB900457D1B /* MemberDAOget.swift */,
+				D729FE9E21CD5DB900457D1B /* MemberDAORef.swift */,
 				D778F77121CA33310078DAF6 /* MemberDAO.swift */,
 			);
 			path = DAO;
@@ -245,6 +274,8 @@
 		D7A64ACE21AFDD600010AE4C /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				D729FE9921CD5DA400457D1B /* DetailViewController.swift */,
+				D729FE9821CD5DA300457D1B /* TableViewController.swift */,
 				D70521CC21AE98C100107F2B /* StartViewController.swift */,
 				D709743421B91E6300D8E7E3 /* RegisterVC.swift */,
 				D709743621B91E7700D8E7E3 /* LoginVC.swift */,
@@ -269,6 +300,8 @@
 		D7A6F9F521CA3E98006D4C0A /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				D729FE9421CD5D8100457D1B /* ArticleModel.swift */,
+				D729FE9521CD5D8200457D1B /* BidModel.swift */,
 				D7A6F9F621CA3EB3006D4C0A /* MemberModel.swift */,
 			);
 			path = Models;
@@ -545,15 +578,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D729FEA321CD5DBA00457D1B /* MemberDAORef.swift in Sources */,
+				D729FE9621CD5D8200457D1B /* ArticleModel.swift in Sources */,
 				D7610CE421C100A5003F3797 /* LoginDatabag.swift in Sources */,
+				D729FE9A21CD5DA400457D1B /* TableViewController.swift in Sources */,
+				D729FEA221CD5DBA00457D1B /* ArticleDAO.swift in Sources */,
 				D7610CE021C0F968003F3797 /* RegistrationValidationProtocol.swift in Sources */,
+				D729FEA721CD5EBC00457D1B /* LoginValidationProtocol.swift in Sources */,
 				D709743521B91E6300D8E7E3 /* RegisterVC.swift in Sources */,
 				D70521CD21AE98C100107F2B /* StartViewController.swift in Sources */,
 				D7A6F9F721CA3EB3006D4C0A /* MemberModel.swift in Sources */,
 				D709743721B91E7700D8E7E3 /* LoginVC.swift in Sources */,
 				D70521CB21AE98C100107F2B /* AppDelegate.swift in Sources */,
+				D729FEA421CD5DBA00457D1B /* MemberDAOget.swift in Sources */,
 				D778F77221CA33310078DAF6 /* MemberDAO.swift in Sources */,
+				D729FE9721CD5D8200457D1B /* BidModel.swift in Sources */,
+				D729FE9321CD5D6300457D1B /* LoginValidation.swift in Sources */,
 				D7610CE621C1041E003F3797 /* RegistrationValidator.swift in Sources */,
+				D729FEA521CD5DBA00457D1B /* BidDAO.swift in Sources */,
+				D729FE9B21CD5DA400457D1B /* DetailViewController.swift in Sources */,
+				D729FEA121CD5DBA00457D1B /* BidDAOadd.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
